@@ -1,4 +1,4 @@
-/* General Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -21,7 +21,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    /* Add padding around the navbar */
 }
 
 .logo a {
@@ -30,14 +29,12 @@ header {
     text-decoration: none;
     font-weight: bold;
     margin-right: auto;
-    /* Ensure logo pushes content to the right */
 }
 
 .nav-links {
     list-style: none;
     display: flex;
     gap: 2rem;
-    /* Adds space between each nav link */
 }
 
 .nav-links li a {
@@ -46,7 +43,6 @@ header {
     font-size: 1rem;
     padding: 0.5rem 1rem;
     font-weight: 700;
-    /* Adds padding to nav links */
     transition: background-color 0.3s ease;
 }
 
@@ -63,7 +59,7 @@ header {
     cursor: pointer;
     flex-direction: column;
     gap: 0.4rem;
-    /* Add space between the hamburger lines */
+    
     margin-left: auto;
     /* Push hamburger to the right on mobile */
 }
@@ -71,7 +67,6 @@ header {
 .hamburger span {
     width: 30px;
     height: 3px;
-    /* background-color: #fff; */
     background-color: #F1C584;
 }
 
@@ -82,12 +77,9 @@ header {
         flex-direction: column;
         position: absolute;
         top: 75px;
-        /* Adjust height to fit the mobile screen */
         right: 0;
-        /* background-color: #333; */
         background-color: #fffdfd;
         width: 100%;
-        /* Take up the full width on mobile */
         text-align: center;
         padding: 1rem 0;
     }
@@ -98,7 +90,6 @@ header {
 
     .nav-links li {
         margin: 0.5rem 0;
-        /* Adds margin between links in mobile view */
     }
 
     .hamburger {
@@ -112,7 +103,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 3rem 2rem;
-    /* background-color: #f4f4f4; */
     background-color: #000;
 }
 
@@ -131,7 +121,6 @@ header {
 
 .home-text h1 {
     font-size: 2.5rem;
-    /* color: #333; */
     color:#F1C584;
 }
 
@@ -172,7 +161,6 @@ header {
 
 .home-text p {
     font-size: 1.2rem;
-    /* color: #666; */
     color:#f9f9f9;
     margin-top: 1rem;
 }
@@ -202,7 +190,6 @@ header {
 /* About Section */
 .about-section {
     padding: 4rem 2rem;
-    /* background-color: #fff; */
     background-color: #000;
     text-align: center;
 }
@@ -214,7 +201,6 @@ header {
 
 .about-section h2 {
     font-size: 2rem;
-    /* color: #333; */
     color: #F1C584;
     margin-bottom: 1rem;
 }
@@ -239,7 +225,6 @@ header {
 
 .skills-section h2 {
     font-size: 2rem;
-    /* color: #333; */
     color: #F1C584;
     margin-bottom: 2rem;
 }
@@ -423,7 +408,6 @@ header {
 .project-image img {
     width: 100%;
     max-width: 300px;
-    /* Adjust size as needed */
     border-radius: 10px;
 }
 

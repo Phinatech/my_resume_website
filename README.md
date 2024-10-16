@@ -21,7 +21,7 @@ A personal resume website showcasing my professional background, skills, experie
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/resume-website.git
+   git clone "https://github.com/Phinatech/my_resume_website.git"
    cd resume-website
    ```
 2. Open `index.html` in your browser or use a local server.
